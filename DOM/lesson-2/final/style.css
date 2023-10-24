@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(212, 219, 231, 0.603);
+}
+.todo {
+  width: 70%;
+  height: 90%;
+  background: linear-gradient(
+    to top left,
+    rgb(159, 165, 219),
+    rgb(109, 199, 221)
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px 10px rgba(0, 0, 0, 0.055);
+}
+
+.head-text {
+  font-size: 60px;
+  background-color: rgba(240, 248, 255, 0.418);
+  width: 100%;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(0, 0, 0, 0.753);
+  text-shadow: 2px 2px #ff00005b;
+}
+
+.fields {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 15%;
+  background-color: rgba(240, 248, 255, 0.651);
+}
+
+.fields > span {
+  font-size: 55px;
+}
+
+.fields > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fields > div > input {
+  width: 20rem;
+  height: 75%;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: none;
+  outline: none;
+  background-color: rgba(113, 176, 199, 0.397);
+}
+
+.fields > div > button {
+  width: 8rem;
+  height: 75%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  background-color: burlywood;
+  font-size: 25px;
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    align-items: flex-start;
+    width: 90%;
+    height: 60%;
+    overflow-y: scroll;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.651);
+    margin-top: 20px;
+}
+
+.task-list> li{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(127, 255, 212, 0.644);
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 3px#0000000e;
+    list-style: none;
+    
+}
+
+.task-list>li> :nth-child(1){
+    width: 20px;
+    
+}
+.task-list>li > :nth-child(2){
+    font-size: 25px;
+}
+
+.task-list>li > :nth-child(3){
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.reset-button{
+font-size: 30px;
+margin-top: 5px;
+border-radius: 5px;
+border: none;
+background-color: burlywood;
+box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.603);
+}
+
+
