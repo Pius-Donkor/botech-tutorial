@@ -21,7 +21,7 @@ gap: 3vw;
     width: 20%;
     height: 400px;
     border-radius: 5px;
-    box-shadow: 0 5px 5px 10px #00000031;
+    box-shadow: 0 5px 5px 10px rgba(0, 0, 0, 0.192);
     font-size: 50px;
     color: bisque;
     display: flex;
