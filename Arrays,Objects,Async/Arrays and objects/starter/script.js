@@ -64,10 +64,14 @@ const person = {
 };
 
 console.log(person);
-console.log(person.name);
-console.log(person.address);
-console.log(person.height);
+//console.log(person.name);
+//console.log(person.address);
+//console.log(person.height);
 
-console.log(person["name"]);
-console.log(person["address"]);
-console.log(person["height"]);
+//console.log(person["name"]);
+//console.log(person["address"]);
+//console.log(person["height"]);
+
+person.location = "sunyani";
+person["gender"] = "male";
+console.log(person);
