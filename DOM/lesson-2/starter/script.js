@@ -16,6 +16,7 @@ function acceptTaskInput(e) {
   task_input.value = "";
 }
 
+
 task_input.addEventListener("keypress", (e) => {
   if (e.key !== "Enter") return;
   acceptTaskInput(e);
